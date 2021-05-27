@@ -8,14 +8,14 @@ body {
     text-align: center;
     background-color: #75BDE0; 
     margin-left: 290px;
-    margin-top: 90px;
+    margin-top: 50px;
     margin-right: 290px;
     margin-bottom: 10px;
     border-radius: 20px;
     box-shadow: 5px 5px #47758b;
 }
 
-input {
+button {
     margin-top: 150px;
     text-align: center;
     background-color: #F89B98;
@@ -24,15 +24,29 @@ input {
     height: 50px;
     border-radius: 100px;
     box-shadow: 1px 1px #9c5f5d;
-    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300; 
 }
 input:hover {
     background-color: #f1c5c2
 }
 
-#display { 
+.spacing {
+    text-align: center;
+    background-color: #75BDE0; 
+    height: 20px;
+    border-radius: 15px;
+    
+}
+.screen { 
     background-color: #F8D49B;
-    margin-top: 30px;
-    width: 260px;
-    height: 55px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    width: 250px;
+    height: 45px;
+    margin-left: 25px;
+    border-radius: 70px;
+    font-weight: 400; 
+    font-family: 'Courier New', Courier, monospace;
+    
 }
